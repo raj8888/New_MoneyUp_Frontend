@@ -1,0 +1,209 @@
+/* navbar */
+
+#navbar {
+    display: flex;
+    background-color:  rgb(35, 164, 85);
+    align-content: center;
+    align-items: center;
+    height: 70px;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#user_name{
+color:black
+}
+
+#brand_name {
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#gif{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+    align-items: center;
+}
+
+ul a:hover {
+    transition: all ease-in-out 0.3s;
+    color: white;
+}
+li{
+    list-style-type: none;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+
+#navsub2 {
+    width: 35%;
+}
+
+#navsub1 {
+    margin-right: 40px;
+    width: 20%;
+}
+
+#navsub1 button {
+    padding: 5px;
+    font-size: 16px;
+    border: 0ch;
+    border-radius: 2px;
+}
+#toggle1 {
+    display: none;
+    position: fixed;
+    text-align: left;
+    padding: 4px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#toggle1>a {
+    display:block;
+    font-size: 15px;
+    padding: 4px;
+}
+
+#toggle1>a:hover {
+    
+    color: rgb(249, 240, 240);
+    background-color:  rgb(35, 164, 85);
+}
+#toggle2 {
+    display: none;
+    position: fixed;
+    background-color: white;
+    padding: 4px;
+}
+
+#toggle2>div {
+    cursor: pointer;
+    font-size: 14px;
+    padding: 3px;
+    color: black;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#toggle2>div:hover {
+    background-color:  rgb(35, 164, 85);
+    color: white;
+
+}
+#hide{
+    display: none;
+}
+#logoutnow{
+    cursor: pointer;
+}
+/* **********NAVBAR CSS END************ */
+#threebar,#responsive{
+    display: none;
+}
+@media screen and (min-width: 200px) and (max-width:449px) {
+    #navsub2,#navsub1,#gif{
+        display: none;
+    }
+    #navbar{
+        justify-content: space-between;
+        width: 100%;
+        margin: auto;
+    }
+    #threebar{
+        display: block;
+        margin-right: 30px;
+        font-size: 25px;
+        color: white;
+    }
+    #responsive{
+        display: none;
+        width: 200px;
+        margin-top: -18px;
+        background-color:  rgb(35, 164, 85);
+       position: fixed;
+       right: 0px;
+       top: 80px;
+       height: 100em;
+       padding: 20px;
+       box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;}
+    #responsive div{
+        color: rgb(12, 12, 12);
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    #responsive div>a,#responsive p{
+        color: rgb(12, 12, 12);
+        margin-bottom: 20px;
+        font-size: 18px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    
+    }
+    #responsive button{
+        padding: 5px;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+
+}
+
+@media screen and (min-width: 450px) and (max-width:749px) {
+#navsub2,#navsub1{
+    display: none;
+}
+#navbar{
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+}
+#threebar{
+    display: block;
+    margin-right: 30px;
+    font-size: 25px;
+    color: white;
+}
+#responsive{
+    display: none;
+    width: 300px;
+    margin-top: -18px;
+    background-color: rgb(35, 164, 85);
+   position: fixed;
+   right: 0px;
+   top: 80px;
+   height: 100em;
+   padding: 20px;
+   box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;}
+#responsive div{
+    color: rgb(12, 12, 12);
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+#responsive div>a,#responsive p{
+    color: rgb(12, 12, 12);
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+
+}
+#responsive button{
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+}
+
+
+
+
+

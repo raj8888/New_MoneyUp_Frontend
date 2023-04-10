@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/budget.css">
+    <link rel="stylesheet" href="./style/globalnav.css">
+    <link rel="stylesheet" href="style/medianew.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/f90c67bbfa.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="icon.png" type="image/gif">
+</head>
+<body>
+    <!-- <nav></nav> -->
+    <div id="render_navbar"></div>
+
+    <!-- budget data mid-container -->
+    <div id="main-mid-container">
+        <div id="render-data">
+            <div id="search-select-data">
+                <div id="select-data">
+                    <p id="slct-bank-name">Select Bank Account</p>
+                    <select name="account" id="bank-accounts-slct">
+                        <!-- <option value="all">Show All Accounts</option>
+                        <option value="sbi">SBI</option>
+                        <option value="AXIS">Axis</option>
+                        <option value="Union">Union Bank</option>
+                        <option value="HDFC">HDFC</option> -->
+                    </select>
+                </div>
+                <div id="mainsearchdiv">
+                    <p>Tell us what you're looking for</p>
+                    <input type="text" placeholder="Search for tasks here..." id="searchBox">
+                    <button id="mainsearchbutton">Search</button>
+                </div>
+            </div>
+            <div id="render-all-tasks-div">
+                <h2 id="task-title">Your Tasks</h2>
+                <div id="main-render-div">
+                    <div id="tasks-title">
+                    <p id="bank-name-title">Bank Name</p>
+                    <p id="task-name-title">Task Name</p>
+                    <p id="taks-prize-title">Task Prize</p>
+                    <p id="bank-details-update">Update</p>
+                    <p id="task-completed">Mark As Completed</p>
+                    </div>
+                    <div id="all-task-render-main">
+                        
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+        
+        <div id="budget-form">
+            <!-- <h1 id=create-taskt-title>Create a Task</h1>
+            <form id="task-creat-form">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR7P5zOBSZxTrT-yxeyi8okKf6K3wu3ZijIw" alt="crate-task" id="create-task-img">
+                    <p id="crt-task-bank">Select Bank Account</p>
+                    <select name="accounts" id="crt-task-bank-acct">
+                        <option value="all">Show All Accounts</option>
+                        <option value="sbi">SBI</option>
+                        <option value="AXIS">Axis</option>
+                        <option value="Union">Union Bank</option>
+                        <option value="HDFC">HDFC</option>
+                    </select>
+                    <p id="crt-task-name">Enter Task Name</p>
+                    <input type="text" id="crt-task-nameip" placeholder="Enter task title here..."  required>
+                    <p id="crt-task-prize">Enter Task Prize</p>
+                    <input type="text" id="crt-task-prizeip" placeholder="Enter task prize here..." required>
+                    <button type="submit" id="crt-task-sbbtn">Submit</button>
+                    <button type="submit" id="crt-task-cabtn">Cancel</button>
+                    
+            </form> -->
+        </div>
+    </div>
+    <div id="changecomptask">
+        <button id="comptaskatag">For Checkcing Completed Task Click Here...</button>
+    </div>
+
+  
+    <footer>
+        <div class="footer-div">
+            <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_191,h_191/https://goodbudget.com/wp-content/uploads/2019/03/12114655/budget-that-syncs-couple-e1560365252699.png"
+                alt="">
+
+            <div class="txt-div">
+                <h2>Money Up</h2>
+                <p>Budget well. Live life. Do good.</p>
+                <p class="footer-para">A home budget app based on the envelope budget system. Available on the Web,
+                    Android and
+                    iPhone. <br> Replace your family budget planner,worksheet or spreadsheet with software that syncs.
+                </p>
+                <span><i style="color: blue;" class="fab fa-facebook"></i> <i style="color: skyblue;"
+                        class="fab fa-twitter"></i> <i style="color: darkmagenta;" class="fab fa-instagram"></i>
+                </span>
+            </div>
+
+
+            <div class="flexlist">
+                <div class="list">
+                    <h6>EXPLORE</h6>
+                    <ul>
+                        <li>Home</li>
+                        <li>How it works</li>
+                        <li>What you get</li>
+                        <li>The Money Up way</li>
+                        <li>Reviews</li>
+                        <li>Roadmap</li>
+                        <li>Budget Podcast</li>
+                        <li>Blog</li>
+                        <li>About Us</li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <h6>GET STARTED</h6>
+                    <ul>
+                        <li>Sign Up</li>
+                        <li>Log In</li>
+                        <li>Pricing</li>
+                        <li>Envelope Budgeting</li>
+                        <li>How To Make a Budget</li>
+                        <li>Online Budget Courses</li>
+                        <li>Budgeting Goals</li>
+                        <li>What Is Debt Snowball</li>
+                        <li>Kakeibo Budget</li>
+                        <li>Cash Stuff</li>
+                    </ul>
+                </div>
+                <div class="list">
+
+                    <h6>GET HELP</h6>
+                    <ul>
+                        <li>User Guide</li>
+                        <li>Forums</li>
+                        <li>Refunds</li>
+                        <li>How To Videos</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div>
+
+        </div>
+        </div>
+
+
+        <p>©️ 2009–present Dayspring Partners | Terms | Privacy | Press Resources<br>
+            Android, Google Play, and the Google Play logo are trademarks of Google LLC. | Apple, Apple logo, iPad,
+            iPhone, iPod touch, iTunes, and Podcast Logo are trademarks of Apple Inc., registered in the U.S. and
+            other<br>
+            countries. App Store is a service mark of Apple Inc. | EEBA, the Easy Envelope Budget Aid, the EEBA mascot,
+            “You can keep a budget, EEBA can help,” Money Up, the Money Up mascot, the Money Up envelope,<br>and
+            “Budget well. Live life. Do good.” are trademarks of Dayspring Technologies, Inc. SPC, a San Francisco
+            custom web app development company.</p>
+
+
+    </footer>
+    <div class="foot">© 2009-23 All rights reserve @Money Up | Terms | Privacy | Subscriptions & Refunds</div>
+</body>
+<script src="./script/budget.js"></script>
+<script src="./script/globalnavbar.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</html>
